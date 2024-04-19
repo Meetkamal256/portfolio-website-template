@@ -4,23 +4,45 @@ import { FaHome, FaRegUser } from "react-icons/fa";
 import { IoBookOutline } from "react-icons/io5";
 import { RiServiceLine } from "react-icons/ri";
 import { MdMessage } from "react-icons/md";
+import { useState } from "react";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="/">
+      <a
+        href="#"
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+      >
         <FaHome />
       </a>
-      <a href="#about">
+      <a
+        href="#about"
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+      >
         <FaRegUser />
       </a>
-      <a href="#experience">
+      <a
+        href="#experience"
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+      >
         <IoBookOutline />
       </a>
-      <a href="#services">
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
         <RiServiceLine />
       </a>
-      <a href="#contact">
+      <a
+        href="#contact"
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+      >
         <MdMessage />
       </a>
     </nav>

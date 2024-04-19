@@ -6,11 +6,13 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a href="https://linkedin.com" target="__blank">
         <FaLinkedin />
+      </a>
+      <a href="https://github.com" target="__blank">
         <FaGithub />
+      </a>
+      <a href="https://dribble.com" target="__blank">
         <FaDribbble />
       </a>
-      <a href="https://github.com" target="__blank"></a>
-      <a href="https://dribble.com" target="__blank"></a>
     </div>
   );
 };

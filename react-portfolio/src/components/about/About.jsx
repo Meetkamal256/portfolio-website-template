@@ -39,7 +39,9 @@ const About = () => {
             earum blanditiis molestias quos modi porro ipsa. Dolorem atque
             dolores corporis.
           </p>
-          <a href="#contact" className="btn btn-primary">Let's talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's talk
+          </a>
         </div>
       </div>
     </section>

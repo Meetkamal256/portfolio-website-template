@@ -8,6 +8,7 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+   
 }
 
 /* ========= CTA ==============  */
@@ -25,7 +26,7 @@ header {
   align-items: center;
   gap: 0.8rem;
   position: absolute;
-  left: 3rem;
+  left: 0;
   bottom: 3rem;
 }
 

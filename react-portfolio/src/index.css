@@ -20,9 +20,9 @@
   
   --transition: all 400ms ease;
   
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
+  --container-width-lg: 75vw;
+  --container-width-md: 86vw;
+  --container-width-sm: 90vw;
 }
 html {
   scroll-behavior: smooth;
@@ -42,8 +42,9 @@ body {
 
 /* ========= GENERAL STYLES ============ */
 .container {
-  width: var(--container-width-lg);
-  margin: 0;
+  width: var(--container-width-lg); /* 90% of the viewport width */
+  max-width: 1200px; /* Set a maximum width to ensure readability on larger screens */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 h1,

@@ -4,8 +4,33 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_2ogmm1b",
+        "template_josz0cx",
+        form.current,
+        "POu4bDbuzeJysOrsS"
+      )
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -38,14 +63,20 @@ const Contact = () => {
           </article>
         </div>
         {/* END OF CONTACT OPTION */}
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="subject" placeholder="Subject" required />
           <input
             type="text"
-            name="name"
+            name="to_name"
             placeholder="Your Full Name"
             required
           />
-          <input type="email" name="email" placeholder="Your email" required />
+          <input
+            type="email"
+            name="from_name"
+            placeholder="Your email"
+            required
+          />
           <textarea
             name="message"
             rows="7"

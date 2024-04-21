@@ -13,64 +13,86 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>HTML</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>CSS</h4>
-              <small>Intermediate</small>
+              <div>
+                <h4>CSS</h4>
+                <small>Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>Javascript</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Javascript</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>Tailwind css</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Tailwind css</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>Bootstrap</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Bootstrap</h4>
+                <small>Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>React js</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>React js</h4>
+                <small>Experienced</small>
+              </div>
             </article>
           </div>
         </div>
 
         <div className="experience__backend">
-          <h3>Frontend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>Node js</h4>
-              <small>Intermediate</small>
+              <div>
+                <h4>Node js</h4>
+                <small>Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>MongoDB</h4>
-              <small>Intermediate</small>
+              <div>
+                <h4>MongoDB</h4>
+                <small>Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>PHP</h4>
-              <small>Intermediate</small>
+              <div>
+                <h4>PHP</h4>
+                <small>Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>MYSQL</h4>
-              <small>Basic</small>
+              <div>
+                <h4>MYSQL</h4>
+                <small>Basic</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge />
-              <h4>Python</h4>
-              <small>Experienced</small>
+              <div>
+                <h4>Python</h4>
+                <small>Experienced</small>
+              </div>
             </article>
           </div>
         </div>

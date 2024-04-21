@@ -45,13 +45,13 @@
   .experience__container {
     grid-template-columns: 1fr;
   }
-
+  
   .experience__container > div {
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
   }
-
+  
   .experience__content {
     padding: 1rem;
   }

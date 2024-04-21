@@ -16,7 +16,9 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
+          </div>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
             <a href="https://github/" className="btn">
               Github
             </a>
@@ -29,11 +31,12 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
+          </div>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
             <a href="https://github/" className="btn">
               Github
             </a>
@@ -46,45 +49,12 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        
-       <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
-            <a href="https://github/" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print"
-              className="btn  btn-primary"
-              target="__blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
-            <a href="https://github/" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print"
-              className="btn  btn-primary"
-              target="__blank"
-            >
-              Live Demo
-            </a>
           </div>
-        </article>
-        
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
             <a href="https://github/" className="btn">
               Github
             </a>
@@ -97,11 +67,48 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={img1} alt="" />
-            <h3>This is a portfolio project item</h3>
+          </div>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github/" className="btn">
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print"
+              className="btn btn-primary"
+              target="__blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img1} alt="" />
+          </div>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github/" className="btn">
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print"
+              className="btn btn-primary"
+              target="__blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={img1} alt="" />
+          </div>
+          <h3>This is a portfolio project item</h3>
+          <div className="portfolio__item-cta">
             <a href="https://github/" className="btn">
               Github
             </a>

@@ -1,54 +1,54 @@
 import React from "react";
 import "./portfolio.css";
-import img1 from "../../assets/portfolio1.jpg";
-import img2 from "../../assets/portfolio2.jpg";
-import img3 from "../../assets/portfolio3.jpg";
-import img4 from "../../assets/portfolio4.jpg";
-import img5 from "../../assets/portfolio5.png";
-import img6 from "../../assets/portfolio6.jpg";
+import img1 from "../../assets/clipboard-website-1.png";
+import img2 from "../../assets/backroads-website-1.png";
+import img3 from "../../assets/fylo-website.png";
+import img4 from "../../assets/shortly-website.png";
+import img5 from "../../assets/bookmark-website.png";
+import img6 from "../../assets/restaurant-website-1.png";
 
 const data = [
   {
     id: 1,
     image: img1,
-    title: "cryptocurrency dashboard & financial visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "clipboard-website",
+    github: "https://github.com/Meetkamal256/clipboard-website",
+    demo: "https://clipboard-website-omega.vercel.app/",
   },
   {
     id: 2,
     image: img2,
-    title: "charts templates and Infographic in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "Backroads",
+    github: "https://github.com/Meetkamal256/Backroads-websiteV2",
+    demo: "https://backroads-website-v2-9z8z.vercel.app/#",
   },
   {
     id: 3,
     image: img3,
-    title: "Figma Dashboard UI kot for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "Fylo website",
+    github: "https://github.com/Meetkamal256/fylo-website",
+    demo: "https://fylo-website-kappa.vercel.app/",
   },
   {
     id: 4,
     image: img4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "Shortly-website",
+    github: "https://github.com/Meetkamal256/Shortly-website",
+    demo: "https://shortly-website-livid.vercel.app/#",
   },
   {
     id: 5,
     image: img5,
-    title: "cryptocurrency dashboard & financial visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "Bookmark-website",
+    github: "https://github.com/Meetkamal256/Bookmark-website",
+    demo: "https://bookmark-website-34cdwf53j-meetkamal256s-projects.vercel.app/",
   },
   {
     id: 6,
     image: img6,
-    title: "Figma Dashboard UI kot for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/24017705-Anxious-and-Tired-lettering-t-shirt-print",
+    title: "Restaurant-website",
+    github: "https://github.com/Meetkamal256/Restaurant-website",
+    demo: "https://restaurant-website-one-phi.vercel.app/",
   },
 ];
 
@@ -66,7 +66,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn">
+                <a href={github} className="btn" target="__blank">
                   Github
                 </a>
                 <a href={demo} className="btn btn-primary" target="__blank">

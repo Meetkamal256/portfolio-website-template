@@ -10,34 +10,15 @@ const About = () => {
       <h5>Get to know</h5>
       <h2>About me</h2>
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={ME} alt="about-image" />
-          </div>
-        </div>
         <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years working</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ worldwide</small>
-            </article>
-            <article className="about__card">
-              <FaFolder className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ completed projects</small>
-            </article>
-          </div>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-            facere fugiat totam amet omnis iusto quibusdam, delectus eius, quam,
-            earum blanditiis molestias quos modi porro ipsa. Dolorem atque
-            dolores corporis.
+            Hey there! As a frontend developer, I'm dedicated to crafting
+            exceptional web experiences. Outside of coding, you'll find me
+            playing football, diving into a good book, or listening to
+            audiobooks. I always strive to deliver my best work, paying careful
+            attention to every detail. Collaboration is key for me, and I love
+            working with teams to bring projects to life. Let's connect and
+            create something amazing together!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

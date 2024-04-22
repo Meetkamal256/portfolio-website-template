@@ -2,7 +2,6 @@ import React from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { FaFacebook } from "react-icons/fa";
-import { IoLogoInstagram } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";

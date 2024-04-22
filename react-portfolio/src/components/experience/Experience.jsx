@@ -29,28 +29,28 @@ const Experience = () => {
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>Javascript</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>Tailwind css</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small>Experienced</small>
+                <h4>SASS</h4>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>React js</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
           </div>
@@ -62,20 +62,6 @@ const Experience = () => {
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
-                <h4>Node js</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <HiCheckBadge className="experience__details-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small>Intermediate</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <HiCheckBadge className="experience__details-icon" />
-              <div>
                 <h4>PHP</h4>
                 <small>Intermediate</small>
               </div>
@@ -83,15 +69,16 @@ const Experience = () => {
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
-                <h4>MYSQL</h4>
-                <small>Basic</small>
+                <h4>MySQL</h4>
+                <small>Intermediate</small>
               </div>
             </article>
+
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small>Experienced</small>
+                <small>Intermediate</small>
               </div>
             </article>
           </div>

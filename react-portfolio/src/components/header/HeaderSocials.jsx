@@ -14,7 +14,7 @@ const HeaderSocials = () => {
       >
         <FaLinkedin />
       </a>
-
+      
       <a href="https://wa.me/2348164682518" target="_blank">
         <FaWhatsapp />
       </a>

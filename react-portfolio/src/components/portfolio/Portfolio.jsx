@@ -1,9 +1,10 @@
 import React from "react";
 import "./portfolio.css";
-import img1 from "../../assets/clipboard-website-1.png";
-import img2 from "../../assets/backroads-website-1.png";
-import img3 from "../../assets/fylo-website.png";
-import img4 from "../../assets/shortly-website.png";
+
+import img1 from "../../assets/fithub4.png";
+import img2 from "../../assets/smarthome4.png";
+import img3 from "../../assets/clipboard4.png";
+import img4 from "../../assets/backroads-website-1.png";
 import img5 from "../../assets/bookmark-website.png";
 import img6 from "../../assets/restaurant-website-1.png";
 
@@ -11,30 +12,30 @@ const data = [
   {
     id: 1,
     image: img1,
-    title: "clipboard-website",
-    github: "https://github.com/Meetkamal256/clipboard-website",
-    demo: "https://clipboard-website-omega.vercel.app/",
+    title: "Responsive Fitness Center landing page",
+    github: "https://github.com/Meetkamal256/Responsive-Fitness-website",
+    demo: "https://responsive-fitness-website-seven.vercel.app/",
   },
   {
     id: 2,
     image: img2,
-    title: "Backroads",
+    title: "Responsive Smart Home landing page",
+    github: "https://github.com/Meetkamal256/smartHome-websiteV2",
+    demo: "https://smarthome-website-react.vercel.app/",
+  },
+  {
+    id: 3,
+    image: img4,
+    title: "Backroads-website",
     github: "https://github.com/Meetkamal256/Backroads-websiteV2",
     demo: "https://backroads-website-v2-9z8z.vercel.app/#",
   },
   {
-    id: 3,
-    image: img3,
-    title: "Fylo website",
-    github: "https://github.com/Meetkamal256/fylo-website",
-    demo: "https://fylo-website-kappa.vercel.app/",
-  },
-  {
     id: 4,
-    image: img4,
-    title: "Shortly-website",
-    github: "https://github.com/Meetkamal256/Shortly-website",
-    demo: "https://shortly-website-livid.vercel.app/#",
+    image: img3,
+    title: "clipboard-website",
+    github: "https://github.com/Meetkamal256/clipboard-website",
+    demo: "https://clipboard-website-omega.vercel.app/",
   },
   {
     id: 5,

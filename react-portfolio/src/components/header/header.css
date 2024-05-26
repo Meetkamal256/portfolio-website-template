@@ -40,7 +40,7 @@ header {
 /* ========= ME ==============  */
 
 .me {
-  background: var(--color-bg-variant);
+  background: #000;
   width: 22rem;
   height: 30rem;
   position: absolute;

@@ -43,7 +43,7 @@ const Experience = () => {
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>SASS</h4>
-                <small>Intermediate</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">

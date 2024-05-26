@@ -6,7 +6,7 @@ import img2 from "../../assets/smarthome4.png";
 import img3 from "../../assets/clipboard4.png";
 import img4 from "../../assets/backroads-website-1.png";
 import img5 from "../../assets/bookmark-website.png";
-import img6 from "../../assets/restaurant-website-1.png";
+import img6 from "../../assets/fylo-website.png";
 
 const data = [
   {
@@ -47,9 +47,9 @@ const data = [
   {
     id: 6,
     image: img6,
-    title: "Restaurant-website",
-    github: "https://github.com/Meetkamal256/Restaurant-website",
-    demo: "https://restaurant-website-one-phi.vercel.app/",
+    title: "Fylo-website",
+    github: "https://github.com/Meetkamal256/fylo-website",
+    demo: "https://fylo-website-kappa.vercel.app/",
   },
 ];
 

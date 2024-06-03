@@ -8,7 +8,6 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
-   
 }
 
 /* ========= CTA ==============  */
@@ -62,12 +61,7 @@ header {
   font-size: 1rem;
 }
 
-/* ========= MEDIA QUERIES (MEDIUM DEVICES) ============ */
-@media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-}
+
 
 /* ========= MEDIA QUERIES (SMALL DEVICES) ============ */
 @media screen and (max-width: 600px) {

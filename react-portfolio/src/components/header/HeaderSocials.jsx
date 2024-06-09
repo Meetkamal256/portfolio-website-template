@@ -8,13 +8,13 @@ const HeaderSocials = () => {
         <FaGithub />
       </a>
       <a
-        href="linkedin.com/in/kamaluddeen-muhammad-981935165
+        href="https://www.linkedin.com/in/kamaluddeen-muhammad-981935165/
 "
         target="__blank"
       >
         <FaLinkedin />
       </a>
-      
+
       <a href="https://wa.me/2348164682518" target="_blank">
         <FaWhatsapp />
       </a>

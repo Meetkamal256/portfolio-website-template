@@ -7,6 +7,7 @@ import img3 from "../../assets/clipboard4.png";
 import img4 from "../../assets/backroads-website-1.png";
 import img5 from "../../assets/bookmark-website.png";
 import img6 from "../../assets/fylo-website.png";
+import img7 from "../../assets/travelia-screenshot.jpg";
 
 const data = [
   {
@@ -16,15 +17,24 @@ const data = [
     github: "https://github.com/Meetkamal256/Responsive-Fitness-website",
     demo: "https://responsive-fitness-website-seven.vercel.app/",
   },
+  
   {
     id: 2,
+    image: img7,
+    title: "Responsive Travel Website UI",
+    github: "https://github.com/Meetkamal256/travelia-website-react-typescript",
+    demo: "https://travelia-website-react-typescript.vercel.app/",
+  },
+  {
+    id: 3,
     image: img2,
     title: "Responsive Smart Home landing page",
     github: "https://github.com/Meetkamal256/smartHome-websiteV2",
     demo: "https://smarthome-website-react.vercel.app/",
   },
+  
   {
-    id: 3,
+    id: 4,
     image: img4,
     title: "Backroads-website",
     github: "https://github.com/Meetkamal256/Backroads-websiteV2",

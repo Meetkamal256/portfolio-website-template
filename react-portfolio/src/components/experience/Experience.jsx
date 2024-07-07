@@ -49,13 +49,27 @@ const Experience = () => {
             <article className="experience__details">
               <HiCheckBadge className="experience__details-icon" />
               <div>
-                <h4>React js</h4>
+                <h4>React.js</h4>
                 <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiCheckBadge className="experience__details-icon" />
+              <div>
+                <h4>TypeScript</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiCheckBadge className="experience__details-icon" />
+              <div>
+                <h4>Next.js</h4>
+                <small>Basic</small>
               </div>
             </article>
           </div>
         </div>
-
+        
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">

@@ -11,9 +11,8 @@ const About = () => {
           <p>
             Hey there! As a frontend developer, I'm dedicated to crafting
             exceptional web experiences. Outside of coding, you'll find me
-            playing football, diving into a good book, or listening to
-            audiobooks. I always strive to deliver my best work, paying careful
-            attention to every detail. Collaboration is key for me, and I love
+            playing video games, football or listening to
+            audio books, Collaboration is key for me, and I love
             working with teams to bring projects to life. Let's connect and
             create something amazing together!
           </p>

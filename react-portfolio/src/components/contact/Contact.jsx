@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -29,7 +29,7 @@ const Contact = () => {
       );
     e.target.reset();
   };
-  
+
   return (
     <section id="contact">
       <h5>Get in touch</h5>
@@ -40,15 +40,18 @@ const Contact = () => {
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>meetkamal256@gmail.com</h5>
-            <a href="mailto:kamaluddeenmuhamad585@gmail.com" target="__blank" >
+            <a href="mailto:kamaluddeenmuhamad585@gmail.com" target="__blank">
               Send a message
             </a>
           </article>
           <article className="contact__option">
-            <FaFacebook className="contact__option-icon" />
+            <FaLinkedin className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>Facebook</h5>
-            <a href="https://m.me/kamal.muhammad.50552338" target="__blank">
+            <h5>Linkedin</h5>
+            <a
+              href="https://www.linkedin.com/in/kamaluddeen-muhammad-981935165/"
+              target="__blank"
+            >
               Send a message
             </a>
           </article>

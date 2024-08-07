@@ -38,6 +38,7 @@ body {
   background: var(--color-bg);
   color: var(--color-primary);
   line-height: 1.7;
+  min-height: 100vh;
 }
 
 /* ========= GENERAL STYLES ============ */

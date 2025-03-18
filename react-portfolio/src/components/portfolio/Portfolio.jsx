@@ -8,23 +8,25 @@ import img4 from "../../assets/backroads-website-1.png";
 import img5 from "../../assets/bookmark-website.png";
 import img6 from "../../assets/fylo-website.png";
 import img7 from "../../assets/travelia-screenshot.jpg";
+import img8 from "../../assets/admin-dashboard.png"
+import img9 from "../../assets/landingPage-3.png"
 
 const data = [
   {
     id: 1,
-    image: img1,
-    title: "Responsive Fitness Center landing page",
-    github: "https://github.com/Meetkamal256/Responsive-Fitness-website",
-    demo: "https://responsive-fitness-website-seven.vercel.app/",
+    image: img9,
+    title: "Grow Kinesis Landing Page",
+    github: "https://gitlab.com/grow-kinesis1/kinesis",
+    demo: "https://growkinesis.com/",
   },
-  
   {
     id: 2,
-    image: img7,
-    title: "Responsive Travel Website UI",
-    github: "https://github.com/Meetkamal256/travelia-website-react-typescript",
-    demo: "https://travelia-website-react-typescript.vercel.app/",
+    image: img8,
+    title: "GrowKinesis SuperAdmin Dashboard",
+    github: "",
+    demo: "https://grow-kinesis.vercel.app/dashboard",
   },
+
   {
     id: 3,
     image: img2,
@@ -32,34 +34,35 @@ const data = [
     github: "https://github.com/Meetkamal256/smartHome-websiteV2",
     demo: "https://smarthome-website-react.vercel.app/",
   },
-  
   {
     id: 4,
+    image: img1,
+    title: "Responsive Fitness Center landing page",
+    github: "https://github.com/Meetkamal256/Responsive-Fitness-website",
+    demo: "https://responsive-fitness-website-seven.vercel.app/",
+  },
+  
+  {
+    id: 5,
+    image: img7,
+    title: "Responsive Travel Website UI",
+    github: "https://github.com/Meetkamal256/travelia-website-react-typescript",
+    demo: "https://travelia-website-react-typescript.vercel.app/",
+  },
+  
+  {
+    id: 6,
     image: img4,
     title: "Backroads-website",
     github: "https://github.com/Meetkamal256/Backroads-websiteV2",
     demo: "https://backroads-website-v2-9z8z.vercel.app/#",
   },
   {
-    id: 4,
+    id: 7,
     image: img3,
     title: "clipboard-website",
     github: "https://github.com/Meetkamal256/clipboard-website",
     demo: "https://clipboard-website-omega.vercel.app/",
-  },
-  {
-    id: 5,
-    image: img5,
-    title: "Bookmark-website",
-    github: "https://github.com/Meetkamal256/Bookmark-website",
-    demo: "https://bookmark-website-34cdwf53j-meetkamal256s-projects.vercel.app/",
-  },
-  {
-    id: 6,
-    image: img6,
-    title: "Fylo-website",
-    github: "https://github.com/Meetkamal256/fylo-website",
-    demo: "https://fylo-website-kappa.vercel.app/",
   },
 ];
 

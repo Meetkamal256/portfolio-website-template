@@ -69,7 +69,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
@@ -92,6 +92,27 @@ const Experience = () => {
               <HiCheckBadge className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiCheckBadge className="experience__details-icon" />
+              <div>
+                <h4>Expressjs</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiCheckBadge className="experience__details-icon" />
+              <div>
+                <h4>MongoDb</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiCheckBadge className="experience__details-icon" />
+              <div>
+                <h4>Prisma ORM</h4>
                 <small>Intermediate</small>
               </div>
             </article>

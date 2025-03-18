@@ -9,12 +9,12 @@ const About = () => {
       <div className="container about__container">
         <div className="about__content">
           <p>
-            Hey there! As a frontend developer, I'm dedicated to crafting
-            exceptional web experiences. Outside of coding, you'll find me
-            playing video games, football or listening to
-            audio books, Collaboration is key for me, and I love
-            working with teams to bring projects to life. Let's connect and
-            create something amazing together!
+            Web Developer proficient in modern web technologies, including
+            ReactJS, NextJS, TypeScript, and CSS modules. Skilled in
+            transforming designs into responsive, user-friendly websites while
+            optimizing performance and engagement through scalable, efficient
+            solutions. Collaborative, detail-oriented, and focused on delivering
+            top-tier user experiences and customer satisfaction.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
